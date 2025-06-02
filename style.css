@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
     padding: 0;
@@ -29,4 +30,37 @@ button {
 button:hover {
     background-color: #2a4da5;
     color :#ffffff
+=======
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex   ;
+    background-color: rgb(18, 55, 55);
+    justify-content: center ;
+    align-items: center ;
+height: 100vh;
+}
+.container {
+    text-align: center;
+}
+
+span {
+    color: #8b1818;
+}
+button {
+    background-color: #8b1818;
+    color: rgb(242, 206, 206);
+    border: none;
+    padding: 0.5rem 1rem;
+    border: px solid rgb(184, 150, 150);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 1s ease;
+}
+button:hover {
+    background-color: #2a4da5;
+    color :#ffffff
+>>>>>>> 91aee9342f1af57343d2411fe2c032a4f29acdd8
 }
