@@ -44,8 +44,8 @@ button:hover {
     border-radius: 4px;
     font-weight: bold;
     z-index: 1000;
-    transition-duration: 2s;
-   transform: translate(400%,100%) rotate(360deg);
+    transition-duration: 3s;
+   transform: translate(830%,100%) rotate(360deg);
 
 
 }

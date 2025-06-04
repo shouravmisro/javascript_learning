@@ -90,8 +90,8 @@ body.on{
     border-radius: 4px;
     font-weight: bold;
     z-index: 10000;
-    transition-duration: 2s;
-    transform: translate(-410%,100%) rotate(360deg);
+    transition-duration: 3s;
+    transform: translate(-800%,100%) rotate(360deg);
 
 }
 
