@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background: #222; 
+
+}
+
+.page2{
+
+  text-align: bottom;
+
+}
+body.on{
+        transition-duration: 5s;
+
+   background: radial-gradient(#d7cda3,#efef80); 
+}
+
+.wire{
+    position: absolute;
+    left: calc(50% - 2px);
+    bottom: 50%;
+    height: 60vh;
+    width: 4px;
+    background: #000;
+    z-index: 1;
+}
+
+.bulb{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    z-index: 2;
+}
+
+.bulb i {
+    font-size: 4rem;
+    color: #444;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+        transition-duration: 0.5s;
+
+    transform: translate(-50%,-50%) rotate(180deg);
+}
+
+.switch{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(187, 222, 15) 0px 10px 15px -5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.switch i{
+    font-size: 1.5rem;
+}
+
+.on .bulb i {
+    color: #ffff00;
+}
+
+.on .switch{
+    background: #4caf50;
+}
+
+.corner-link {
+    position: fixed;
+    padding: 2px 3px;
+    background: #0f9552;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    z-index: 10000;
+    transition-duration: 2s;
+    transform: translate(-410%,100%) rotate(360deg);
+
+}
+
+.top-corner {
+    right: 10px;
+    top: 10px;
+}
+
+.on .corner-link {
+        transition-duration:2s;
+
+    background: #b6b9189f;
+        color: #000000;
+
+}
