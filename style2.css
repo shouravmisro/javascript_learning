@@ -9,15 +9,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #222;
+  background: #000000;
+  transition: background 2s ease;
 }
 
 .page2 {
   text-align: bottom;
 }
 body.on {
-  background: radial-gradient(#d7cda3, #efef80);
-  transition-duration: 1s;
+  background:  #ffdf0f
+  
 }
 
 .wire {
@@ -26,7 +27,7 @@ body.on {
   bottom: 50%;
   height: 60vh;
   width: 4px;
-  background: #000;
+  background: #242424;
   z-index: 1;
 }
 
@@ -79,9 +80,9 @@ body.on {
 
 .corner-link {
   position: fixed;
-  padding: 2px 3px;
-  background: #0f9552;
-  color: #ffffff;
+  padding: 6px 6px;
+  background: #222401;
+  color: #efeded;
   text-decoration: none;
   border-radius: 4px;
   font-weight: bold;
@@ -97,8 +98,8 @@ body.on {
 .on .corner-link {
   transition-duration: 2s;
 
-  background: #b6b9189f;
-  color: #000000;
+  background: #0864009f;
+  color: #fffcfc;
 }
 .bottom-corner {
   right: 20px;
