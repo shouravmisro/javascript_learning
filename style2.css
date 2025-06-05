@@ -19,9 +19,10 @@ body{
 
 }
 body.on{
-        transition-duration: 5s;
-
+    
    background: radial-gradient(#d7cda3,#efef80); 
+           transition-duration: 1s;
+
 }
 
 .wire{
