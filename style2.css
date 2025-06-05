@@ -87,11 +87,10 @@ body.on {
   font-weight: bold;
   z-index: 10000;
   transition-duration: 3s;
-  transform: translate(-800%, 100%) rotate(360deg);
 }
 
 .top-corner {
-  right: 10px;
+  left: 10px;
   top: 10px;
 }
 
@@ -100,4 +99,8 @@ body.on {
 
   background: #b6b9189f;
   color: #000000;
+}
+.bottom-corner {
+  right: 20px;
+  bottom: 50px;
 }

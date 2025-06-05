@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning project</title>
     <link rel="stylesheet" href="style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+      integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
+    <a href="practice2.html" class="corner-link top-corner"
+      >Back to previous Page</a
+    >
+
     <div claass="container">
       <h1>Random number generator</h1>
       <div class="number-container">
@@ -14,6 +24,18 @@
       </div>
       <button id="generate-button">Generate Random Number</button>
       <button id="reset-button">Reset</button>
+    </div>
+    <div class="container2">
+      <div clas="random-password">
+        <h1>
+          Genarate a <br />
+          <span>Random Password</span>
+        </h1>
+        <div class="display">
+          <input type="text" id="password" placeholder="Password" readonly />
+          <i class="fas fa-clipboard" id="copy"></i>
+        </div>
+      </div>
     </div>
 
     <script src="script3.js"></script>
