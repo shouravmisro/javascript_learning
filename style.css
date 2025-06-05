@@ -1,55 +1,52 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    display: flex   ;
-    background-color: rgb(18, 55, 55);
-    justify-content: center ;
-    align-items: center ;
-height: 100vh;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  background-color: rgb(18, 55, 55);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.page2{
- text-align: top;
-
+.page2 {
+  text-align: top;
 }
 .container {
-    text-align: center;
+  text-align: center;
 }
 
 span {
-    color: #8b1818;
+  color: #8b1818;
 }
 button {
-    background-color: #8b1818;
-    color: rgb(242, 206, 206);
-    border: none;
-    padding: 0.5rem 1rem;
-    border: px solid rgb(184, 150, 150);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 1s ease;
+  background-color: #8b1818;
+  color: rgb(242, 206, 206);
+  border: none;
+  padding: 0.5rem 1rem;
+  border: px solid rgb(184, 150, 150);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 1s ease;
 }
 button:hover {
-    background-color: #2a4da5;
-    color :#ffffff;
+  background-color: #2a4da5;
+  color: #ffffff;
 }
 
 .corner-link {
-    position: fixed;
-    padding: 2px 3px;
-    background: #267e10;
-    color: #0b0000;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    z-index: 1000;
-    transition-duration: 3s;
-   transform: translate(830%,100%) rotate(360deg);
-
-
+  position: fixed;
+  padding: 2px 3px;
+  background: #267e10;
+  color: #0b0000;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  z-index: 1000;
+  transition-duration: 3s;
+  transform: translate(830%, 100%) rotate(360deg);
 }
 .bottom-corner {
-    left: 20px;
-    bottom: 50px;
+  left: 20px;
+  bottom: 50px;
 }
