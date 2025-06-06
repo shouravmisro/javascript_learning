@@ -11,7 +11,7 @@ function checker(){
        icon.style.display = "none";
        errorMsg.style.display = "none";
        emailId.style.border = "2px solid #d1d3d4"; 
-    }else if(validateEmail(email)){  // hello2@gmail.com
+    }else if(validateEmail(email)){  
         icon.innerHTML = '<i class="fas fa-check-circle"></i>';
         icon.style.color = "#2ecc71";
         errorMsg.style.display = "none";
