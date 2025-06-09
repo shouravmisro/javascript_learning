@@ -49,3 +49,31 @@ p{
     font-weight: bold;
     margin-top: 20px;
 }
+
+.corner-link {
+  position: fixed;
+  padding: 6px 6px;
+  background: #222401;
+  color: #efeded;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  z-index: 10000;
+  transition-duration: 3s;
+}
+
+.top-corner {
+  left: 10px;
+  top: 10px;
+}
+
+.on .corner-link {
+  transition-duration: 2s;
+
+  background: #0864009f;
+  color: #fffcfc;
+}
+.bottom-corner {
+  right: 20px;
+  bottom: 50px;
+}
